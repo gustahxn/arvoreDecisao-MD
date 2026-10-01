@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Decisão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sistema de Análise de Viabilidade</h1>
+            <p>Calculadora de Árvore de Decisão e Valor Monetário Esperado (EMV)</p>
+        </header>
+
+        <main>
+            <section class="config-section">
+                <h2>Cenários (Sol e Chuva)</h2>
+                <div id="scenarios-container"></div>
+            </section>
+
+            <section class="config-section">
+                <h2>Opções de Decisão</h2>
+                <div id="decisions-container"></div>
+                <button id="add-decision-btn" class="btn">Adicionar Opção</button>
+            </section>
+
+            <section class="results-section">
+                <h2>Resultados e Melhor Opção</h2>
+                <div id="results-container"></div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
